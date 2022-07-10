@@ -11,7 +11,7 @@ public class CyclopClient {
         logger.info("启动客户端成功");
     }
 
-    public void ceaseClient() {
+    public void stopClient() {
         logger.info("终止客户端成功");
     }
 

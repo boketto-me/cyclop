@@ -6,7 +6,7 @@ public class Application {
         CyclopClient cyclopClient = new CyclopClient();
         cyclopClient.startClient();
         //TODO，参考Windows实现消息循环
-        cyclopClient.ceaseClient();
+        cyclopClient.stopClient();
     }
 
 }
